@@ -16,7 +16,8 @@ public class Cheers {
                                 }
                         }
                         if (printTest == true) {
-                                System.out.println("Give me a " + name.charAt(0 + i) + ": " + name.charAt(0 + i) + "!");
+                                System.out.println(
+                                                "Give me a  " + name.charAt(0 + i) + ": " + name.charAt(0 + i) + "!");
                         }
                 }
                 System.out.println("What does that spell?");
