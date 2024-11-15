@@ -11,7 +11,7 @@ public class Cheers {
                         for (int X = 0; X < arrChar.length; X++) {
 
                                 if (name.indexOf(arrChar[X], i) == i) {
-                                        System.out.println("Give me an " + name.charAt(0 + i) + "!");
+                                        System.out.println("Give me an" + name.charAt(0 + i) + "!");
                                         printTest = false;
                                 }
                         }
