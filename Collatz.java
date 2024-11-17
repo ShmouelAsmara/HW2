@@ -9,8 +9,8 @@ public class Collatz {
 		int tempOne;
 		if (mode.equals("V")) {
 			// loop for the number of the line
-			for (int i = 0; i <= number; i++) {
-				System.out.print(i + 1 + " ");
+			for (int i = 1; i <= number; i++) {
+				System.out.print(i + " ");
 				// lop for dealing with one
 				if (i == 1) {
 					tempOne = (i * 3) + 1;
