@@ -34,8 +34,6 @@ public class Collatz {
 
 				}
 				System.out.println("(" + (counter) + ")");
-				System.out.println("");
-
 				// bring the counter and the number for the start
 				number = Integer.parseInt(args[0]);
 				counter = 1;
