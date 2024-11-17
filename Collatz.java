@@ -33,7 +33,7 @@ public class Collatz {
 					counter = counter + 1;
 
 				}
-				System.out.println("(" + (counter) + ")");
+				System.out.println(" (" + (counter) + ")");
 				System.out.println("");
 
 				// bring the counter and the number for the start
