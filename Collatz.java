@@ -10,11 +10,11 @@ public class Collatz {
 		if (mode.equals("V")) {
 			// loop for the number of the line
 			for (int i = 1; i <= number; i++) {
-				System.out.print(i);
+				System.out.print(i + " ");
 				// lop for dealing with one
 				if (i == 1) {
 					tempOne = (i * 3) + 1;
-					System.out.print(tempOne);
+					System.out.print(tempOne + " ");
 					number = tempOne;
 					counter = counter + 1;
 
@@ -25,10 +25,10 @@ public class Collatz {
 				while (number != 1) {
 					if ((number % 2) == 0) {
 						number = number / 2;
-						System.out.print(number);
+						System.out.print(number + " ");
 					} else {
 						number = ((number * 3) + 1);
-						System.out.print(number);
+						System.out.print(number + " ");
 					}
 					counter = counter + 1;
 
