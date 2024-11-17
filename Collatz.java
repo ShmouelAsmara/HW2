@@ -16,6 +16,7 @@ public class Collatz {
 					tempOne = (i * 3) + 1;
 					System.out.print(tempOne);
 					number = tempOne;
+					counter = counter + 1;
 
 				} else {
 					number = i;
@@ -32,7 +33,7 @@ public class Collatz {
 					counter = counter + 1;
 
 				}
-				System.out.println(" (" + (counter + 1) + ")");
+				System.out.println(" (" + (counter) + ")");
 				System.out.println("");
 
 				// bring the counter and the number for the start
